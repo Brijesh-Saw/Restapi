@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rest api</string>
+    <string name="app_desc">Welcome to rest api</string>
+    <string name="name">Name:</string>
+    <string name="capital">Capital</string>
+    <string name="region">Region</string>
+    <string name="subregion">Sub-Region</string>
+    <string name="population">Population</string>
+    <string name="borders">Borders</string>
+    <string name="languages">Languages</string>
+</resources>
