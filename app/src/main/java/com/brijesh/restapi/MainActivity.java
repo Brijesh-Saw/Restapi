@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Logo = findViewById(R.id.logo);
         Title = findViewById(R.id.title);
         Description = findViewById(R.id.description);
-        new Handler().postDelayed(new Runnable() {
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
                 Description.setVisibility(View.VISIBLE);
